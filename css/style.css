@@ -193,3 +193,32 @@
 }
 
 /* Fourth Area Stop */
+
+/* Fifth section start */
+.fifth{
+    padding: 4rem 0;
+}
+.button-group button{
+    background: transparent;
+    border: none;
+    font-family: var(--roboto);
+    font-size: 20px;
+    padding: 1rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.our-project .title>h4{
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.img a img{
+    transition-property: tranform,fiter;
+    transition:0.2s  ease-in-out;
+}
+.img a img:hover{
+    transform: scale(1.1);
+    filter:brightness(1.1) drop-shadow( 5px 10px 20px #0f0f0f);
+    
+}
+
+/* Fifth section stop */
