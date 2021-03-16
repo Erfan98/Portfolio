@@ -25,7 +25,7 @@
     padding:10px 50px;
     border-radius: 50px;
     border: 1px solid #824FED;
-    transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-inb ;
     box-shadow:var(--box-shadow);
 }
 .button:hover{
@@ -46,7 +46,7 @@
     /* color: var(--pColor) !important; */
     font-family: roboto;
 }
-.active{
+.navbar-nav .active{
     color: var(--primary-color) !important;
 }
 .nav-link:hover{
@@ -212,7 +212,7 @@
     line-height: 30px;
 }
 .img a img{
-    transition-property: tranform,fiter;
+    transition-property: transform,fiter;
     transition:0.2s  ease-in-out;
 }
 .img a img:hover{
@@ -222,3 +222,62 @@
 }
 
 /* Fifth section stop */
+
+/* Testimonial Area Start */
+.client{
+    background-color: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+.client-img{
+    padding: 2rem;
+}
+.about-client{
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.owl-item{
+    padding: 0rem 1.5rem;
+}
+/* Testimonial Area Stop */
+/* Seventh Area Srart */
+.seventh{
+    background: url(../img/subscribe-bg.png) no-repeat;
+    background-position: center;
+    padding: 7rem 10rem;
+
+}
+.seventh .sub-title{
+    color: white;
+}
+#txtemail{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 300px;
+}
+#txtemail::placeholder{
+    color: whitesmoke;
+}
+.sub{
+    background-color: white !important;
+    padding: 10px 40px;
+    color: black;
+}
+.sub:hover{
+    color: black;
+}
+footer.footer-area{
+    background: url(../img/footer-bg.png);
+    padding: 3rem;
+    margin-top: 10%;
+}
+.social a>i{
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--primary-color);
+}
+.social a>i:hover{
+    color: var(--primary-color2);
+}
+
+/* Seventh Area Stop */

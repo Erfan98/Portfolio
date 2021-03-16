@@ -22,5 +22,19 @@ $(document).ready(function(){
         type: 'image',
         gallery: {enabled: true}
       });
+
+
+      //Owl Carousel
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items:2,
+            loop:true,
+            dots:true,
+            autoplay:true
+            
+        });
+      });
+
+      let nav
   
   });
